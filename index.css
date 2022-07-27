@@ -1,13 +1,18 @@
 #container
 {
     background-color: antiquewhite;
-    border-radius: 3px;
     text-align: center;
     width: 250px;
     height: auto;
     border-radius: 20px;
     padding: 10px;
     border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 }
 table
 {
