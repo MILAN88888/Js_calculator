@@ -22,7 +22,7 @@
     </table>
     </div>
     </div>
-    
+
 <script>
 let screen=document.getElementById('screen');
 button=document.querySelectorAll('button');
@@ -53,7 +53,7 @@ for(item of button)
                                             }
                                             else if(buttonText=="=")
                                             {
-                                                screen.value=eval(finalValue);
+                                                finalValue==" " ? screen.value=0 : screen.value=eval(finalValue);
                                                 showValue=' ';
                                                 finalValue=" ";
                                                 screenValue=" ";
