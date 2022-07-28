@@ -24,6 +24,8 @@
     </div>
 
     <a href="alarm.php"> click here to set alarm</a>
+    <br>
+    <a href="quote.php"> click here to see quotes</a>
 
     <script src="index.js"></script>
 </body>
