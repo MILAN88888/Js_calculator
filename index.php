@@ -23,6 +23,8 @@
     </div>
     </div>
 
+    <a href="alarm.php"> click here to set alarm</a>
+
     <script src="index.js"></script>
 </body>
 </html>
