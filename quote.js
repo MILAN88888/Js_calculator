@@ -1,4 +1,5 @@
 const x=document.getElementById('demo');
+console.log(x);
 let y= document.getElementById('next');
 let z= document.getElementById('foot');
 

@@ -1,6 +1,6 @@
 #container
 {
-    background-color: antiquewhite;
+    background-color:antiquewhite;
     text-align: center;
     width: 250px;
     height: auto;
@@ -25,6 +25,7 @@ input
     font-size : 34px;
     border-radius: 10px;
     text-align: right;
+    color:rgb(158, 13, 13)
 }
 button
 {
@@ -37,7 +38,7 @@ button
 .calculator
 {
     display: inline-block;
-    background: aqua;
+    background: gray;
     padding: 10px;
     border-radius: 10px;
 }
